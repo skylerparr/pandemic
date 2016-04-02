@@ -1,0 +1,23 @@
+<h1>You are in <%= @city %></h1>
+
+    <div>
+      <p>
+      <%= if(@disease_count > 0) do %>
+        There <%= if(@disease_count > 1) do "are" else "is" end %> 
+        currently <%= @disease_count %> 
+        infection<%= if(@disease_count > 1) do "s" end %>  here. 
+        <a href="#" onclick="treatDisease();">Treat disease?</a>
+      <%= else %>
+        There are no infections here.
+      <%= end %>
+      </p>
+    </div>
+
+    <div>
+      <h2>Travel to the next destination</h2>
+      <ul>
+        <%= for connection <- @connections do %>
+          <li><a href="<%= connection.server_name %>?secret=<%= @secret %>"><%= connection.name %></a></li>
+        <% end %>
+      </ul>
+    </div>

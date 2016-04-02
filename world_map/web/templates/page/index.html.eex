@@ -1,0 +1,7 @@
+<img src="/images/Pandemic_map.jpeg" width="1920" height="1080"/>
+<div id="map">
+  <%= for city <- @cities |> Map.keys do %>
+    <div id="<%= Map.get(@cities, city)["host"] %>">
+    </div>
+  <% end %>
+</div>

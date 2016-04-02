@@ -1,0 +1,1136 @@
+{
+  "world": [
+    {
+      "losangeles": {
+        "name": "Los Angeles",
+        "host": "city_losangeles_yellow",
+        "connections": [
+          {
+            "name": "Mexico City",
+            "host": "city_mexicocity_yellow"
+          },
+          {
+            "name": "Chicago",
+            "host": "city_chicago_blue"
+          },
+          {
+            "name": "San Francisco",
+            "host": "city_sanfrancisco_blue"
+          },
+          {
+            "name": "Sydney",
+            "host": "city_sydney_orange"
+          }
+        ]
+      }
+    },
+    {
+      "mexicocity": {
+        "name": "Mexico City",
+        "host": "city_mexicocity_yellow",
+        "connections": [
+          {
+            "name": "Los Angeles",
+            "host": "city_losangeles_yellow"
+          },
+          {
+            "name": "Lima",
+            "host": "city_lima_yellow"
+          },
+          {
+            "name": "Santiago",
+            "host": "city_santiago_yellow"
+          },
+          {
+            "name": "Bogota",
+            "host": "city_bogota_yellow"
+          },
+          {
+            "name": "Miami",
+            "host": "city_miami_yellow"
+          },
+          {
+            "name": "Chicago",
+            "host": "city_chicago_blue"
+          }
+        ]
+      }
+    },
+    {
+      "miami": {
+        "name": "Miami",
+        "host": "city_miami_yellow",
+        "connections": [
+          {
+            "name": "Mexico City",
+            "host": "city_mexicocity_yellow"
+          },
+          {
+            "name": "Bogota",
+            "host": "city_bogota_yellow"
+          },
+          {
+            "name": "Atlanta",
+            "host": "city_atlanta_blue"
+          },
+          {
+            "name": "Washington",
+            "host": "city_washington_blue"
+          }
+        ]
+      }
+    },
+    {
+      "bogota": {
+        "name": "Bogota",
+        "host": "city_bogota_yellow",
+        "connections": [
+          {
+            "name": "Mexico City",
+            "host": "city_mexicocity_yellow"
+          },
+          {
+            "name": "Miami",
+            "host": "city_miami_yellow"
+          },
+          {
+            "name": "Lima",
+            "host": "city_lima_yellow"
+          },
+          {
+            "name": "Buenos Aires",
+            "host": "city_buenosaires_yellow"
+          },
+          {
+            "name": "Sao Paolo",
+            "host": "city_saopaolo_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "lima": {
+        "name": "Lima",
+        "host": "city_lima_yellow",
+        "connections": [
+          {
+            "name": "Mexico City",
+            "host": "city_mexicocity_yellow"
+          },
+          {
+            "name": "Bogota",
+            "host": "city_bogota_yellow"
+          },
+          {
+            "name": "Santiago",
+            "host": "city_santiago_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "santiago": {
+        "name": "Santia",
+        "host": "city_santiago_yellow",
+        "connections": [
+          {
+            "name": "Lima",
+            "host": "city_lima_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "buenosaires": {
+        "name": "Buenos Aires",
+        "host": "city_buenosaires_yellow",
+        "connections": [
+          {
+            "name": "Bogota",
+            "host": "city_bogota_yellow"
+          },
+          {
+            "name": "Sao Paolo",
+            "host": "city_saopaolo_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "saopaolo": {
+        "name": "Sao Paolo",
+        "host": "city_saopaolo_yellow",
+        "connections": [
+          {
+            "name": "Bogota",
+            "host": "city_bogota_yellow"
+          },
+          {
+            "name": "Buenos Aires",
+            "host": "city_buenosaires_yellow"
+          },
+          {
+            "name": "Madrid",
+            "host": "city_madrid_blue"
+          },
+          {
+            "name": "Lagos",
+            "host": "city_lagos_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "lagos": {
+        "name": "Lagos",
+        "host": "city_lagos_yellow",
+        "connections": [
+          {
+            "name": "Sao Paolo",
+            "host": "city_saopaolo_yellow"
+          },
+          {
+            "name": "Kinshasa",
+            "host": "city_kinshasa_yellow"
+          },
+          {
+            "name": "Khartoum",
+            "host": "city_khartoum_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "kinshasa": {
+        "name": "Kinshasa",
+        "host": "city_kinshasa_yellow",
+        "connections": [
+          {
+            "name": "Lagos",
+            "host": "city_lagos_yellow"
+          },
+          {
+            "name": "Khartoum",
+            "host": "city_khartoum_yellow"
+          },
+          {
+            "name": "Johanesberg",
+            "host": "city_johanesberg_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "johanesberg": {
+        "name": "Johanesberg",
+        "host": "city_johanesberg_yellow",
+        "connections": [
+          {
+            "name": "Khartoum",
+            "host": "city_khartoum_yellow"
+          },
+          {
+            "name": "Kinshasa",
+            "host": "city_kinshasa_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "khartoum": {
+        "name": "Khartoum",
+        "host": "city_khartoum_yellow",
+        "connections": [
+          {
+            "name": "Johanesberg",
+            "host": "city_johanesberg_yellow"
+          },
+          {
+            "name": "Kinshasa",
+            "host": "city_kinshasa_yellow"
+          },
+          {
+            "name": "Lagos",
+            "host": "city_lagos_yellow"
+          },
+          {
+            "name": "Cairo",
+            "host": "city_cairo_black"
+          }
+        ]
+      }
+    },
+    {
+      "sanfrancisco": {
+        "name": "San Francisco",
+        "host": "city_sanfrancisco_blue",
+        "connections": [
+          {
+            "name": "Los Angeles",
+            "host": "city_losangeles_yellow"
+          },
+          {
+            "name": "Chicago",
+            "host": "city_chicago_blue"
+          },
+          {
+            "name": "Manila",
+            "host": "city_manila_orange"
+          },
+          {
+            "name": "Tokyo",
+            "host": "city_tokyo_orange"
+          }
+        ]
+      }
+    },
+    {
+      "chicago": {
+        "name": "Chicago",
+        "host": "city_chicago_blue",
+        "connections": [
+          {
+            "name": "Los Aangeles",
+            "host": "city_losangeles_yellow"
+          },
+          {
+            "name": "San Francisco",
+            "host": "city_sanfrancisco_blue"
+          },
+          {
+            "name": "Mexico City",
+            "host": "city_mexicocity_yellow"
+          },
+          {
+            "name": "Atlanta",
+            "host": "city_atlanta_blue"
+          },
+          {
+            "name": "Toronto",
+            "host": "city_toronto_blue"
+          }
+        ]
+      }
+    },
+    {
+      "atlanta": {
+        "name": "Atlanta",
+        "host": "city_atlanta_blue",
+        "connections": [
+          {
+            "name": "Chicago",
+            "host": "city_chicago_blue"
+          },
+          {
+            "name": "Washington",
+            "host": "city_washington_blue"
+          },
+          {
+            "name": "Miami",
+            "host": "city_miami_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "toronto": {
+        "name": "Toronto",
+        "host": "city_toronto_blue",
+        "connections": [
+          {
+            "name": "Chicago",
+            "host": "city_chicago_blue"
+          },
+          {
+            "name": "Washington",
+            "host": "city_washington_blue"
+          },
+          {
+            "name": "New York",
+            "host": "city_newyork_blue"
+          }
+        ]
+      }
+    },
+    {
+      "newyork": {
+        "name": "New York",
+        "host": "city_newyork_blue",
+        "connections": [
+          {
+            "name": "Toronto",
+            "host": "city_toronto_blue"
+          },
+          {
+            "name": "Washington",
+            "host": "city_washington_blue"
+          },
+          {
+            "name": "London",
+            "host": "city_london_blue"
+          },
+          {
+            "name": "Madrid",
+            "host": "city_madrid_blue"
+          }
+        ]
+      }
+    },
+    {
+      "washington": {
+        "name": "Washington",
+        "host": "city_washington_blue",
+        "connections": [
+          {
+            "name": "New York",
+            "host": "city_newyork_blue"
+          },
+          {
+            "name": "Atlanta",
+            "host": "city_atlanta_blue"
+          },
+          {
+            "name": "Miami",
+            "host": "city_miami_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "london": {
+        "name": "London",
+        "host": "city_london_blue",
+        "connections": [
+          {
+            "name": "New York",
+            "host": "city_newyork_blue"
+          },
+          {
+            "name": "Paris",
+            "host": "city_paris_blue"
+          },
+          {
+            "name": "Madrid",
+            "host": "city_madrid_blue"
+          },
+          {
+            "name": "Essen",
+            "host": "city_essen_blue"
+          }
+        ]
+      }
+    },
+    {
+      "madrid": {
+        "name": "Madrid",
+        "host": "city_madrid_blue",
+        "connections": [
+          {
+            "name": "New York",
+            "host": "city_newyork_blue"
+          },
+          {
+            "name": "Paris",
+            "host": "city_paris_blue"
+          },
+          {
+            "name": "London",
+            "host": "city_london_blue"
+          },
+          {
+            "name": "Algiers",
+            "host": "city_algiers_black"
+          },
+          {
+            "name": "Sao Paolo",
+            "host": "city_saopaolo_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "paris": {
+        "name": "Paris",
+        "host": "city_paris_blue",
+        "connections": [
+          {
+            "name": "Madrid",
+            "host": "city_madrid_blue"
+          },
+          {
+            "name": "Essen",
+            "host": "city_essen_blue"
+          },
+          {
+            "name": "London",
+            "host": "city_london_blue"
+          },
+          {
+            "name": "Algiers",
+            "host": "city_algiers_black"
+          },
+          {
+            "name": "Milan",
+            "host": "city_milan_blue"
+          }
+        ]
+      }
+    },
+    {
+      "essen": {
+        "name": "Essen",
+        "host": "city_essen_blue",
+        "connections": [
+          {
+            "name": "Paris",
+            "host": "city_paris_blue"
+          },
+          {
+            "name": "London",
+            "host": "city_london_blue"
+          },
+          {
+            "name": "Milan",
+            "host": "city_milan_blue"
+          },
+          {
+            "name": "St Petersburg",
+            "host": "city_stpetersburg_blue"
+          }
+        ]
+      }
+    },
+    {
+      "milan": {
+        "name": "Milan",
+        "host": "city_milan_blue",
+        "connections": [
+          {
+            "name": "Paris",
+            "host": "city_paris_blue"
+          },
+          {
+            "name": "Essen",
+            "host": "city_essen_blue"
+          },
+          {
+            "name": "Istanbul",
+            "host": "city_istanbul_black"
+          }
+        ]
+      }
+    },
+    {
+      "stpetersburg": {
+        "name": "ST Petersburg",
+        "host": "city_stpetersburg_blue",
+        "connections": [
+          {
+            "name": "Istanbul",
+            "host": "city_istanbul_black"
+          },
+          {
+            "name": "Essen",
+            "host": "city_essen_blue"
+          },
+          {
+            "name": "Moscow",
+            "host": "city_moscow_black"
+          }
+        ]
+      }
+    },
+    {
+      "moscow": {
+        "name": "Moscow",
+        "host": "city_moscow_black",
+        "connections": [
+          {
+            "name": "St Petersburg",
+            "host": "city_stpetersburg_blue"
+          },
+          {
+            "name": "Istanbul",
+            "host": "city_istanbul_black"
+          },
+          {
+            "name": "Tehran",
+            "host": "city_tehran_black"
+          }
+        ]
+      }
+    },
+    {
+      "istanbul": {
+        "name": "Istanbul",
+        "host": "city_istanbul_black",
+        "connections": [
+          {
+            "name": "Moscow",
+            "host": "city_moscow_black"
+          },
+          {
+            "name": "St Petersburg",
+            "host": "city_stpetersburg_blue"
+          },
+          {
+            "name": "Milan",
+            "host": "city_milan_blue"
+          },
+          {
+            "name": "Baghdad",
+            "host": "city_baghdad_black"
+          },
+          {
+            "name": "Cairo",
+            "host": "city_cairo_black"
+          },
+          {
+            "name": "Algiers",
+            "host": "city_algiers_black"
+          }
+        ]
+      }
+    },
+    {
+      "baghdad": {
+        "name": "Baghdad",
+        "host": "city_baghdad_black",
+        "connections": [
+          {
+            "name": "Tehran",
+            "host": "city_tehran_black"
+          },
+          {
+            "name": "Istanbul",
+            "host": "city_istanbul_black"
+          },
+          {
+            "name": "Cairo",
+            "host": "city_cairo_black"
+          },
+          {
+            "name": "Riyadh",
+            "host": "city_riyadh_black"
+          },
+          {
+            "name": "Karachi",
+            "host": "city_karachi_black"
+          }
+        ]
+      }
+    },
+    {
+      "tehran": {
+        "name": "Tehran",
+        "host": "city_tehran_black",
+        "connections": [
+          {
+            "name": "Moscow",
+            "host": "city_moscow_black"
+          },
+          {
+            "name": "Baghdad",
+            "host": "city_baghdad_black"
+          },
+          {
+            "name": "Karachi",
+            "host": "city_karachi_black"
+          },
+          {
+            "name": "Delhi",
+            "host": "city_delhi_black"
+          }
+        ]
+      }
+    },
+    {
+      "delhi": {
+        "name": "Delhi",
+        "host": "city_delhi_black",
+        "connections": [
+          {
+            "name": "Tehran",
+            "host": "city_tehran_black"
+          },
+          {
+            "name": "Kolkata",
+            "host": "city_kolkata_black"
+          },
+          {
+            "name": "Chennai",
+            "host": "city_chennai_black"
+          },
+          {
+            "name": "Karachi",
+            "host": "city_karachi_black"
+          },
+          {
+            "name": "Mumbai",
+            "host": "city_mumbai_black"
+          }
+        ]
+      }
+    },
+    {
+      "karachi": {
+        "name": "Karachi",
+        "host": "city_karachi_black",
+        "connections": [
+          {
+            "name": "Tehran",
+            "host": "city_tehran_black"
+          },
+          {
+            "name": "Delhi",
+            "host": "city_delhi_black"
+          },
+          {
+            "name": "Baghdad",
+            "host": "city_baghdad_black"
+          },
+          {
+            "name": "Riyadh",
+            "host": "city_riyadh_black"
+          },
+          {
+            "name": "Mumbai",
+            "host": "city_mumbai_black"
+          }
+        ]
+      }
+    },
+    {
+      "algiers": {
+        "name": "Algiers",
+        "host": "city_algiers_black",
+        "connections": [
+          {
+            "name": "Istanbul",
+            "host": "city_istanbul_black"
+          },
+          {
+            "name": "Cairo",
+            "host": "city_cairo_black"
+          },
+          {
+            "name": "Madrid",
+            "host": "city_madrid_blue"
+          },
+          {
+            "name": "Paris",
+            "host": "city_paris_blue"
+          },
+          {
+            "name": "Milan",
+            "host": "city_milan_blue"
+          }
+        ]
+      }
+    },
+    {
+      "cairo": {
+        "name": "Cairo",
+        "host": "city_cairo_black",
+        "connections": [
+          {
+            "name": "Khartoum",
+            "host": "city_khartoum_yellow"
+          },
+          {
+            "name": "Baghdad",
+            "host": "city_baghdad_black"
+          },
+          {
+            "name": "Riyadh",
+            "host": "city_riyadh_black"
+          },
+          {
+            "name": "Algiers",
+            "host": "city_algiers_black"
+          },
+          {
+            "name": "Istanbul",
+            "host": "city_istanbul_black"
+          }
+        ]
+      }
+    },
+    {
+      "riyadh": {
+        "name": "Riyadh",
+        "host": "city_riyadh_black",
+        "connections": [
+          {
+            "name": "Cairo",
+            "host": "city_cairo_black"
+          },
+          {
+            "name": "Baghdad",
+            "host": "city_baghdad_black"
+          },
+          {
+            "name": "Mumbai",
+            "host": "city_mumbai_black"
+          },
+          {
+            "name": "Karachi",
+            "host": "city_karachi_black"
+          }
+        ]
+      }
+    },
+    {
+      "mumbai": {
+        "name": "Mumbai",
+        "host": "city_mumbai_black",
+        "connections": [
+          {
+            "name": "Karachi",
+            "host": "city_karachi_black"
+          },
+          {
+            "name": "Cennai",
+            "host": "city_chennai_black"
+          },
+          {
+            "name": "Delhi",
+            "host": "city_delhi_black"
+          }
+        ]
+      }
+    },
+    {
+      "chennai": {
+        "name": "Chennai",
+        "host": "city_chennai_black",
+        "connections": [
+          {
+            "name": "Delhi",
+            "host": "city_delhi_black"
+          },
+          {
+            "name": "Mumbai",
+            "host": "city_mumbai_black"
+          },
+          {
+            "name": "Kolkata",
+            "host": "city_kolkata_black"
+          },
+          {
+            "name": "Bangok",
+            "host": "city_bangkok_orange"
+          },
+          {
+            "name": "Jakarta",
+            "host": "city_jakarta_orange"
+          }
+        ]
+      }
+    },
+    {
+      "kolkata": {
+        "name": "Kolkata",
+        "host": "city_kolkata_black",
+        "connections": [
+          {
+            "name": "Cennai",
+            "host": "city_chennai_black"
+          },
+          {
+            "name": "Delhi",
+            "host": "city_delhi_black"
+          },
+          {
+            "name": "Mumbai",
+            "host": "city_mumbai_black"
+          },
+          {
+            "name": "Bangok",
+            "host": "city_bangkok_orange"
+          },
+          {
+            "name": "Hong Kong",
+            "host": "city_hongkong_orange"
+          }
+        ]
+      }
+    },
+    {
+      "beijing": {
+        "name": "Beijing",
+        "host": "city_beijing_orange",
+        "connections": [
+          {
+            "name": "Shanghai",
+            "host": "city_shanghai_orange"
+          },
+          {
+            "name": "Seoul",
+            "host": "city_seoul_orange"
+          }
+        ]
+      }
+    },
+    {
+      "shanghai": {
+        "name": "Shanghai",
+        "host": "city_shanghai_orange",
+        "connections": [
+          {
+            "name": "Beijing",
+            "host": "city_beijing_orange"
+          },
+          {
+            "name": "Seoul",
+            "host": "city_seoul_orange"
+          },
+          {
+            "name": "Tokyo",
+            "host": "city_tokyo_orange"
+          },
+          {
+            "name": "Hong Kong",
+            "host": "city_hongkong_orange"
+          },
+          {
+            "name": "Taipei",
+            "host": "city_taipei_orange"
+          }
+        ]
+      }
+    },
+    {
+      "seoul": {
+        "name": "Seoul",
+        "host": "city_seoul_orange",
+        "connections": [
+          {
+            "name": "Tokyo",
+            "host": "city_tokyo_orange"
+          },
+          {
+            "name": "Shanghai",
+            "host": "city_shanghai_orange"
+          },
+          {
+            "name": "Beijing",
+            "host": "city_beijing_orange"
+          }
+        ]
+      }
+    },
+    {
+      "tokyo": {
+        "name": "Tokyo",
+        "host": "city_tokyo_orange",
+        "connections": [
+          {
+            "name": "San Francisco",
+            "host": "city_sanfrancisco_blue"
+          },
+          {
+            "name": "Shanghai",
+            "host": "city_shanghai_orange"
+          },
+          {
+            "name": "Seoul",
+            "host": "city_seoul_orange"
+          },
+          {
+            "name": "Osaka",
+            "host": "city_osaka_orange"
+          }
+        ]
+      }
+    },
+    {
+      "osaka": {
+        "name": "Osaka",
+        "host": "city_osaka_orange",
+        "connections": [
+          {
+            "name": "Tokyo",
+            "host": "city_tokyo_orange"
+          },
+          {
+            "name": "Taipei",
+            "host": "city_taipei_orange"
+          }
+        ]
+      }
+    },
+    {
+      "hongkong": {
+        "name": "Hong Kong",
+        "host": "city_hongkong_orange",
+        "connections": [
+          {
+            "name": "Kolkata",
+            "host": "city_kolkata_black"
+          },
+          {
+            "name": "Bangok",
+            "host": "city_bangkok_orange"
+          },
+          {
+            "name": "Shanghai",
+            "host": "city_shanghai_orange"
+          },
+          {
+            "name": "Taipei",
+            "host": "city_taipei_orange"
+          },
+          {
+            "name": "Manila",
+            "host": "city_manila_orange"
+          },
+          {
+            "name": "Ho Chi Min City",
+            "host": "city_hochimincity_orange"
+          }
+        ]
+      }
+    },
+    {
+      "taipei": {
+        "name": "Taipei",
+        "host": "city_taipei_orange",
+        "connections": [
+          {
+            "name": "Manila",
+            "host": "city_manila_orange"
+          },
+          {
+            "name": "Osaka",
+            "host": "city_osaka_orange"
+          },
+          {
+            "name": "Shanghai",
+            "host": "city_shanghai_orange"
+          },
+          {
+            "name": "Hong Kong",
+            "host": "city_hongkong_orange"
+          }
+        ]
+      }
+    },
+    {
+      "bangkok": {
+        "name": "Bangkok",
+        "host": "city_bangkok_orange",
+        "connections": [
+          {
+            "name": "Ho Chi Min City",
+            "host": "city_hochimincity_orange"
+          },
+          {
+            "name": "Hong Kong",
+            "host": "city_hongkong_orange"
+          },
+          {
+            "name": "Chennai",
+            "host": "city_chennai_black"
+          },
+          {
+            "name": "Kolkata",
+            "host": "city_kolkata_black"
+          },
+          {
+            "name": "Jakarta",
+            "host": "city_jakarta_orange"
+          }
+        ]
+      }
+    },
+    {
+      "hochimincity": {
+        "name": "Ho Chi Min City",
+        "host": "city_hochimincity_orange",
+        "connections": [
+          {
+            "name": "Hong Kong",
+            "host": "city_hongkong_orange"
+          },
+          {
+            "name": "Bangok",
+            "host": "city_bangkok_orange"
+          },
+          {
+            "name": "Jakarta",
+            "host": "city_jakarta_orange"
+          },
+          {
+            "name": "Manila",
+            "host": "city_manila_orange"
+          }
+        ]
+      }
+    },
+    {
+      "jakarta": {
+        "name": "Jakarta",
+        "host": "city_jakarta_orange",
+        "connections": [
+          {
+            "name": "Ho Chi Min City",
+            "host": "city_hochimincity_orange"
+          },
+          {
+            "name": "Bangok",
+            "host": "city_bangkok_orange"
+          },
+          {
+            "name": "Chennai",
+            "host": "city_chennai_black"
+          },
+          {
+            "name": "Sydney",
+            "host": "city_sydney_orange"
+          }
+        ]
+      }
+    },
+    {
+      "sydney": {
+        "name": "Sydney",
+        "host": "city_sydney_orange",
+        "connections": [
+          {
+            "name": "Jakarta",
+            "host": "city_jakarta_orange"
+          },
+          {
+            "name": "Manila",
+            "host": "city_manila_orange"
+          },
+          {
+            "name": "Los Angeles",
+            "host": "city_losangeles_yellow"
+          }
+        ]
+      }
+    },
+    {
+      "manila": {
+        "name": "Manila",
+        "host": "city_manila_orange",
+        "connections": [
+          {
+            "name": "Sydney",
+            "host": "city_sydney_orange"
+          },
+          {
+            "name": "Ho Chi Min City",
+            "host": "city_hochimincity_orange"
+          },
+          {
+            "name": "San Francisco",
+            "host": "city_sanfrancisco_blue"
+          }
+        ]
+      }
+    }
+  ]
+}
