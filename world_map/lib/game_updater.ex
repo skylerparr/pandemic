@@ -36,15 +36,17 @@ defmodule GameUpdater do
 
   defcast remove_player_location(sockets, old_player), state: state do
     sockets = state.sockets
-    socket = sockets |> hd
-    WorldMap.WorldMapChannel.handle_out("updates:remove_location", old_player, socket)
+    Enum.each(sockets, fn(socket) ->
+      WorldMap.WorldMapChannel.handle_out("updates:remove_location", old_player, socket)
+    end)
     new_state(state)
   end
 
   defcast set_player_location(sockets, player), state: state do
     sockets = state.sockets
-    socket = sockets |> hd
-    WorldMap.WorldMapChannel.handle_out("updates:set_location", player, socket)
+    Enum.each(sockets, fn(socket) ->
+      WorldMap.WorldMapChannel.handle_out("updates:set_location", player, socket)
+    end)
     new_state(state)
   end
 

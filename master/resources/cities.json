@@ -38,10 +38,6 @@
             "host": "city_lima_yellow"
           },
           {
-            "name": "Santiago",
-            "host": "city_santiago_yellow"
-          },
-          {
             "name": "Bogota",
             "host": "city_bogota_yellow"
           },
@@ -770,10 +766,6 @@
             "host": "city_baghdad_black"
           },
           {
-            "name": "Mumbai",
-            "host": "city_mumbai_black"
-          },
-          {
             "name": "Karachi",
             "host": "city_karachi_black"
           }
@@ -790,7 +782,7 @@
             "host": "city_karachi_black"
           },
           {
-            "name": "Cennai",
+            "name": "Chennai",
             "host": "city_chennai_black"
           },
           {
@@ -818,7 +810,7 @@
             "host": "city_kolkata_black"
           },
           {
-            "name": "Bangok",
+            "name": "Bangkok",
             "host": "city_bangkok_orange"
           },
           {
@@ -834,7 +826,7 @@
         "host": "city_kolkata_black",
         "connections": [
           {
-            "name": "Cennai",
+            "name": "Chennai",
             "host": "city_chennai_black"
           },
           {
@@ -846,7 +838,7 @@
             "host": "city_mumbai_black"
           },
           {
-            "name": "Bangok",
+            "name": "Bangkok",
             "host": "city_bangkok_orange"
           },
           {
@@ -970,7 +962,7 @@
             "host": "city_kolkata_black"
           },
           {
-            "name": "Bangok",
+            "name": "Bangkok",
             "host": "city_bangkok_orange"
           },
           {
@@ -1054,7 +1046,7 @@
             "host": "city_hongkong_orange"
           },
           {
-            "name": "Bangok",
+            "name": "Bangkok",
             "host": "city_bangkok_orange"
           },
           {
@@ -1078,7 +1070,7 @@
             "host": "city_hochimincity_orange"
           },
           {
-            "name": "Bangok",
+            "name": "Bangkok",
             "host": "city_bangkok_orange"
           },
           {
